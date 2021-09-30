@@ -26,12 +26,21 @@ var questions = [{
 {
   question: "Where do I work? ",
   answer: "Walmart"
+},{
+  question:"What is my favourite colour? ",
+  answer:"Yellow"
+},{
+  question:"What is my favorite food? ",
+  answer:"Idly"
+},{
+  question:"What is my favorite number? ",
+  answer:"4"
 }];
 
 function welcome() {
  var userName = readlineSync.question("What's your name? ");
 
-  console.log("Welcome "+ userName + "DO YOU KNOW Dinesh?");
+  console.log("Welcome "+ userName + " Lets CHECK ? DO YOU KNOW Dinesh?");
 }
 
 
